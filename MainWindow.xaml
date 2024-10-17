@@ -1,0 +1,24 @@
+﻿<Window x:Class="ПР9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ПР9"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid Width="150" Height="50">
+      
+        <TextBox Name="TextBox_Massiv" Width="250" Height="300" Margin="-245,-146,103,-104"/>
+        <Button Name="Btn_Generate_Massive" Content="Сгенирировать массив" Margin="-195,170,153,-170" Click="Btn_Generate_Massive_Click"/>
+        <Label Name="Minimum" Content="Минимальное значение X:" Margin="48,-128,-73,128" />
+        <Label Name="Minimum_znach_X" Margin="228,-128,-300,128" />
+        <Label Name="Maximum1" Content="Максимальное значение Y:" Margin="48,-73,-73,73"/> 
+        <Label Name="Maximum1_znach_Y" Margin="228,-73,-300,73" />
+        <Label Name="Maximum2" Content="Максимальное значение Z:" Margin="48,-23,-73,23"/>
+        <Label Name="Maximum2_znach_Z" Margin="228,-18,-300,18" />
+        <Button Name="BtnColculation" Content="Вычислить" Margin="158,37,-158,-37" Click="BtnColculation_Click"/>
+        <Label Name="Result" Margin="158,145,-158,-145" RenderTransformOrigin="0.397,0.901"/>
+
+    </Grid>
+</Window>
